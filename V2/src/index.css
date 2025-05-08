@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer theme {
+  :root {
+    --font-inter: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* 
+body{
+  background: radial-gradient(600px at 186px 187px, rgba(29, 78, 216, 0.15), transparent 80%);
+} */
