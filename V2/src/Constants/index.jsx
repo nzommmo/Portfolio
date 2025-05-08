@@ -3,7 +3,7 @@ import BAdmin from "../assets/Images/Projects/BAdmin.png"
 import Hosy from "../assets/Images/Projects/Hosy.jpeg"
 import SMS from "../assets/Images/Projects/SMS.png"
 import Parking from "../assets/Images/Figma/Parking1.png"
-
+import CMS from "../assets/Images/Projects/CMS.png"
 
 
 export const Experiences = [
@@ -48,6 +48,23 @@ export const Experiences = [
 ]
 
 export const PortfolioProjects = [
+    {
+        Image: CMS,
+        Title: "Headless CMS: WordPress + React",
+        Link:'https://github.com/nzommmo/Wordpress-Headless-CMS/',
+        Description: "This project showcases a headless CMS setup where WordPress is used solely as a content management backend, while a React (Vite) frontend fetches and displays the content via the WordPress REST API, enabling a modern, fast, and decoupled landing page experience.",
+        Technologies: [
+            {
+                Tech: "Wordpress",                
+            },
+            {
+                Tech: "React",                
+            },
+            {
+                Tech: "Tailwind",                
+            },         
+        ]
+    },
     {
         Image: Huduma,
         Title: "Huduma Mtaani",
@@ -162,6 +179,7 @@ export const AboutParagraphs = [
 
 
 export const ProjectArchive = [
+    
     {
         Year: "2025",
         Project: "Huduma Mtaani",
@@ -180,16 +198,16 @@ export const ProjectArchive = [
                 Tech: "Postgress",                
             },     
         ],
-        Link: "https://businessadmin-dusky.vercel.app/"
+        Link: "https://huduma-mtaani.vercel.app/"
 
     },
     {
-        Year: "2025",
-        Project: "Huduma Mtaani",
-        MadeAt: "CUEA",
+        Year: "2024",
+        Project: "Business Admin",
+        MadeAt: "",
         MadeWith: [
             {
-                Tech: "ASP .NET",                
+                Tech: "Django REST"            
             },
             {
                 Tech: "React",                
@@ -204,4 +222,65 @@ export const ProjectArchive = [
         Link: "https://businessadmin-dusky.vercel.app/"
 
     },
+    {
+        Year: "2024",
+        Project: "SMS Nasi",
+        MadeAt: "",
+        MadeWith: [
+            {
+                Tech: "Node"            
+            },
+            {
+                Tech: "React",                
+            },
+            {
+                Tech: "Tailwind",                
+            },
+            {
+                Tech: "Africa's Talking",                
+            },     
+        ],
+        Link: "https://bulk-sms-swart.vercel.app/"
+
+    },
+    {
+        Year: "2023",
+        Project: "Hosy Sasa",
+        MadeAt: "",
+        MadeWith: [
+            {
+                Tech: "PHP"            
+            },
+            {
+                Tech: "Javascript",                
+            },
+            {
+                Tech: "Bootstrap",                
+            },
+               
+        ],
+        Link: "https://github.com/nzommmo/Hosy-Sasa"
+
+    },
+    {
+        Year: "2023",
+        Project: "Public Transport Ticketing System",
+        MadeAt: "",
+        MadeWith: [
+            {
+                Tech: "PHP"            
+            },
+            {
+                Tech: "Javascript",                
+            },
+            {
+                Tech: "Bootstrap",                
+            },
+               
+        ],
+        Link: "https://github.com/nzommmo/PUBLIC-TRANSPORT-TICKETING-SYSTEM"
+
+    },
+    
+
 ]
