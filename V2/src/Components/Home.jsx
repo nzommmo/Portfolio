@@ -5,6 +5,7 @@ import Experience from './Experience'
 import Projects from './Projects'
 import Design from './Design'
 import Contact from './Contact'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -29,6 +30,9 @@ const Home = () => {
       <div className='relative'>
         <Contact/>
 
+      </div>
+      <div>
+        <Footer/>
       </div>
     
 

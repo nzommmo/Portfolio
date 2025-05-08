@@ -163,21 +163,45 @@ export const AboutParagraphs = [
 
 export const ProjectArchive = [
     {
-        Year: "2024",
-        Project: "Kusoma",
-        MadeAt: "Dotsavvy",
+        Year: "2025",
+        Project: "Huduma Mtaani",
+        MadeAt: "CUEA",
         MadeWith: [
             {
-                Tech: "Node",                
+                Tech: "ASP .NET",                
             },
             {
                 Tech: "React",                
             },
             {
-                Tech: "Africa's Talking",                
-            },    
+                Tech: "Tailwind",                
+            },
+            {
+                Tech: "Postgress",                
+            },     
         ],
-        Link: "/"
+        Link: "https://businessadmin-dusky.vercel.app/"
 
-    }
+    },
+    {
+        Year: "2025",
+        Project: "Huduma Mtaani",
+        MadeAt: "CUEA",
+        MadeWith: [
+            {
+                Tech: "ASP .NET",                
+            },
+            {
+                Tech: "React",                
+            },
+            {
+                Tech: "Tailwind",                
+            },
+            {
+                Tech: "Postgress",                
+            },     
+        ],
+        Link: "https://businessadmin-dusky.vercel.app/"
+
+    },
 ]
