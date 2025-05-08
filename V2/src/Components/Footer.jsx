@@ -5,7 +5,7 @@ const Footer = () => {
     <div className=''>
         <div className='flex justify-center items-center'>
         <p className="text-center text-sm text-slate-500 animate-pulse">
-        Made with <span className="text-red-500 animate-pulse">❤️</span> by Nzomo — for the love of the game.
+        Made with <span className="text-red-500 animate-pulse">❤️</span> by Nzomo.
         </p>
         
         </div>

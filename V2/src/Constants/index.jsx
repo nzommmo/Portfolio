@@ -9,10 +9,10 @@ import CMS from "../assets/Images/Projects/CMS.png"
 export const Experiences = [
     {
         Period: "2024 - Present",
-        Title: "Senior Frontend Engineer",
+        Title: "Frontend Developer",
         Company: "Dotsavvy",
         Link:'https://www.dotsavvyafrica.com/',
-        Description: "Build and maintain critical UI components used to develop client websites across various industries at Dotsavvy Africa. Collaborate closely with cross-functional teams—designers, developers, and project managers—to ensure implementation aligns with modern web standards and advocate for best practices in accessibility, responsiveness, and performance.",
+        Description: "Build and maintain client websites across various industries. Collaborate closely with cross-functional teams—designers, developers, and project managers—to ensure implementation aligns with modern web standards and advocate for best practices in accessibility, responsiveness, and performance.",
         Technologies: [
             {
                 Tech: "Wordpress",                
@@ -26,25 +26,25 @@ export const Experiences = [
             
         ]
     },
-    {
-        Period: "2024 - 2025",
-        Title: "Technical Lead",
-        Company: "CUEA Innovation Hub",
-        Link:'/',
-        Description: "workworkworkworkworkworkworkwork",
-        Technologies: [
-            {
-                Tech: "Javascript",                
-            },
-            {
-                Tech: "Mongo",                
-            },
-            {
-                Tech: "Postgress",                
-            }
+    // {
+    //     Period: "2024 - 2025",
+    //     Title: "Technical Lead",
+    //     Company: "CUEA Innovation Hub",
+    //     Link:'/',
+    //     Description: "workworkworkworkworkworkworkwork",
+    //     Technologies: [
+    //         {
+    //             Tech: "Javascript",                
+    //         },
+    //         {
+    //             Tech: "Mongo",                
+    //         },
+    //         {
+    //             Tech: "Postgress",                
+    //         }
             
-        ]
-    },
+    //     ]
+    // },
 ]
 
 export const PortfolioProjects = [

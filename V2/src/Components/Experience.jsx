@@ -34,7 +34,7 @@ const Experience = () => {
                             </div>
                             </h3>
                             <p className='mt-2 text-sm leading-normal'>
-                            Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.
+                            {Experience.Description}
                             </p>
                             <ul className='mt-2 flex flex-wrap'>
                                 {Experience.Technologies.map((Tech,index)=>(
