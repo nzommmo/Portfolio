@@ -20,15 +20,12 @@ const Home = () => {
           <Experience/>
           <Projects/>
           <Design/>
+           <Contact/>
 
         </div>
         </main>
         <div>
         </div>
-
-      </div>
-      <div className='relative'>
-        <Contact/>
 
       </div>
       <div>

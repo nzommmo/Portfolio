@@ -4,15 +4,46 @@ import Hosy from "../assets/Images/Projects/Hosy.jpeg"
 import SMS from "../assets/Images/Projects/SMS.png"
 import Parking from "../assets/Images/Figma/Parking1.png"
 import CMS from "../assets/Images/Projects/CMS.png"
+import Mofa from "../assets/Images/Figma/MOFA.png"
 
 
 export const Experiences = [
+    
+        {
+        Period: "June 2025 - Present",
+        Title: "Products & Innovation Intern",
+        Company: "Interswitch East Africa",
+        Link:'https://interswitchgroup.com/kenya/',
+        Description: "As a Products and Innovation Intern at Interswitch East Africa, I am gaining hands-on experience in product and project management, from ideation to launch. My role involves participating in brainstorming sessions, conducting product research, and familiarizing myself with development tools and frameworks such as Agile, Kanban, and Jira. I collaborate with cross-functional teams to explore innovative solutions that address real user needs while building a solid foundation in the product lifecycle.",
+        Technologies: [
+            {
+                Tech: "Product Lifecycle",                
+            },
+            {
+                Tech: "Jira",                
+            },
+            {
+                Tech: "Confluence",                
+            },
+            {
+                Tech: "Agile/Scrum"
+            },
+            {
+                Tech: "Prioritization Frameworks"
+            },
+            {
+                Tech: "Roadmapping"
+            }
+            
+        ]
+    },
+
     {
         Period: "2024 - Present",
         Title: "Frontend Developer",
         Company: "Dotsavvy",
         Link:'https://www.dotsavvyafrica.com/',
-        Description: "Build and maintain client websites across various industries. Collaborate closely with cross-functional teams—designers, developers, and project managers—to ensure implementation aligns with modern web standards and advocate for best practices in accessibility, responsiveness, and performance.",
+        Description: "Build and maintain client websites across various industries. Collaborate closely with cross-functional teams designers, developers, and project managers to ensure implementation aligns with modern web standards and advocate for best practices in accessibility, responsiveness, and performance.",
         Technologies: [
             {
                 Tech: "Wordpress",                
@@ -152,6 +183,13 @@ export const PortfolioProjects = [
 ]
 
 export const Designs = [
+   {
+    Image: Mofa,
+    Title: "Ministry of Foreign Affairs Guest Services Management System",
+    Link: "https://www.figma.com/design/uBFK9pjMa83XgKF0t1sgP5/MOFA?node-id=47-1447&t=QiTHYlrhVzjUCsPD-0",
+    Description: "A comprehensive web-based platform designed to streamline the coordination of diplomatic guest services for the Ministry of Foreign Affairs. The system manages guest registration, itineraries, and special requirements while automating service coordination for airport transfers, accommodation, transportation, and protocol events. It features staff duty assignment, role-based access control, and secure document management.",
+    Type: "Web Application"
+},
     {
         Image: Parking,
         Title: "Parking Management System",
@@ -159,7 +197,8 @@ export const Designs = [
         Description: "This Figma project showcases the UI/UX design of a modern Parking Management App that streamlines how users handle parking. The app allows users to pay for parking electronically, access virtual parking tickets, and earn loyalty points with every transaction. These points can be redeemed within the app, promoting user retention and rewarding frequent use. The design emphasizes simplicity, accessibility, and real-time interactivity to enhance the parking experience.",
         Type: "Web Application"
         
-    },
+    }
+
 ]
 
 export const AboutParagraphs = [

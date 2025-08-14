@@ -5,31 +5,38 @@ const sections = ['about', 'experience', 'projects','contact'];
 const Nav = () => {
   const [activeSection, setActiveSection] = useState('');
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPos = window.scrollY;
+useEffect(() => {
+  const handleScroll = () => {
+    const scrollPos = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const pageHeight = document.documentElement.scrollHeight;
 
-      for (let i = 0; i < sections.length; i++) {
-        const section = document.getElementById(sections[i]);
-        if (section) {
-          const offsetTop = section.offsetTop - 100;
-          const offsetBottom = offsetTop + section.offsetHeight;
+    for (let i = 0; i < sections.length; i++) {
+      const section = document.getElementById(sections[i]);
+      if (section) {
+        const offsetTop = section.offsetTop - 100;
+        const offsetBottom = offsetTop + section.offsetHeight;
 
-          if (scrollPos >= offsetTop && scrollPos < offsetBottom) {
-            setActiveSection(sections[i]);
-            break;
-          }
+        // If near bottom of page, force last section active
+        if (window.scrollY + windowHeight >= pageHeight - 10) {
+          setActiveSection(sections[sections.length - 1]);
+          return;
+        }
+
+        if (scrollPos >= offsetTop && scrollPos < offsetBottom) {
+          setActiveSection(sections[i]);
+          return;
         }
       }
-    };
+    }
+  };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll(); // set on load
+  window.addEventListener('scroll', handleScroll, { passive: true });
+  handleScroll();
+  return () => window.removeEventListener('scroll', handleScroll);
+}, []);
 
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  return (
+return (
     <div>
       <div className="relative lg:flex lg:flex-col">
         <h1 className="text-4xl sm:text-5xl text-slate-200 font-bold tracking-tight">Eric Nzomo</h1>
