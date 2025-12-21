@@ -5,16 +5,34 @@ import SMS from "../assets/Images/Projects/SMS.png"
 import Parking from "../assets/Images/Figma/Parking1.png"
 import CMS from "../assets/Images/Projects/CMS.png"
 import Mofa from "../assets/Images/Figma/MOFA.png"
-
+import Plantra from "../assets/Images/Projects/plantra.png"
 
 export const Experiences = [
-    
-        {
-        Period: "June 2025 - Present",
+    {
+        Period: "2024 - Present",
+        Title: "Frontend Developer",
+        Company: "Dotsavvy",
+        Link:'https://www.dotsavvyafrica.com/',
+        Description: "Build and maintain client websites across various industries. Collaborate closely with cross-functional teams designers, developers, and project managers to ensure implementation aligns with modern web standards and advocate for best practices in accessibility, responsiveness, and performance.",
+        Technologies: [
+            {
+                Tech: "Wordpress",                
+            },
+            {
+                Tech: "Elementor",                
+            },
+            {
+                Tech: "WpBakery",                
+            }
+            
+        ]
+    },    
+      {
+        Period: "June 2025 - August 2025",
         Title: "Products & Innovation Intern",
         Company: "Interswitch East Africa",
         Link:'https://interswitchgroup.com/kenya/',
-        Description: "As a Products and Innovation Intern at Interswitch East Africa, I am gaining hands-on experience in product and project management, from ideation to launch. My role involves participating in brainstorming sessions, conducting product research, and familiarizing myself with development tools and frameworks such as Agile, Kanban, and Jira. I collaborate with cross-functional teams to explore innovative solutions that address real user needs while building a solid foundation in the product lifecycle.",
+        Description: "As a Products and Innovation Intern at Interswitch East Africa, I gained hands-on experience in product and project management, from ideation to launch. My role involved participating in brainstorming sessions, conducting product research, and familiarizing myself with development tools and frameworks such as Agile, Kanban, and Jira. I collaborated with cross-functional teams to explore innovative solutions that addressed real user needs while building a solid foundation in the product lifecycle.",
         Technologies: [
             {
                 Tech: "Product Lifecycle",                
@@ -38,25 +56,7 @@ export const Experiences = [
         ]
     },
 
-    {
-        Period: "2024 - Present",
-        Title: "Frontend Developer",
-        Company: "Dotsavvy",
-        Link:'https://www.dotsavvyafrica.com/',
-        Description: "Build and maintain client websites across various industries. Collaborate closely with cross-functional teams designers, developers, and project managers to ensure implementation aligns with modern web standards and advocate for best practices in accessibility, responsiveness, and performance.",
-        Technologies: [
-            {
-                Tech: "Wordpress",                
-            },
-            {
-                Tech: "Elementor",                
-            },
-            {
-                Tech: "WpBakery",                
-            }
-            
-        ]
-    },
+    
     // {
     //     Period: "2024 - 2025",
     //     Title: "Technical Lead",
@@ -79,6 +79,23 @@ export const Experiences = [
 ]
 
 export const PortfolioProjects = [
+    {
+        Image: Plantra,
+        Title: "Plantra",
+        Link:'https://plantra.isonge.co.ke/',
+        Description: "Plantra is a modern, lightweight event planning tool designed to help organizers track deliverables, manage checklists, and monitor event preparation progress—all within a clean, intuitive interface. It enables users to plan events with structure and clarity while providing real-time visibility into what’s completed and what still needs attention.",
+        Technologies: [
+            {
+                Tech: "Django REST",                
+            },
+            {
+                Tech: "React",                
+            },
+            {
+                Tech: "Tailwind",                
+            },         
+        ]
+    },
     {
         Image: CMS,
         Title: "Headless CMS: WordPress + React",
@@ -136,47 +153,6 @@ export const PortfolioProjects = [
             },
             
             
-            
-        ]
-    },
-    {
-        Image: Hosy,
-        Title: "Hosy Sasa",
-        Link:'https://github.com/nzommmo/Hosy-Sasa',
-        Description: "A hospital management system designed to streamline the management of patient records, treatment histories, and prescriptions—making it easier for healthcare providers to deliver organized and efficient care.",
-        Technologies: [
-            {
-                Tech: "PHP",                
-            },
-            {
-                Tech: "Bootstrap",                
-            },
-            {
-                Tech: "Javascript",                
-            },
-            {
-                Tech: "Fullcalender",                
-            },
-            
-            
-            
-        ]
-    },
-    {
-        Image: SMS,
-        Title: "SMS Nasi",
-        Link:'https://bulk-sms-swart.vercel.app/',
-        Description: "SMS Nasi is a bulk SMS platform that helps businesses reach their customers efficiently through personalized text campaigns. It features contact uploads, message templates, and a user-friendly dashboard for easy management and tracking.",
-        Technologies: [
-            {
-                Tech: "Node",                
-            },
-            {
-                Tech: "React",                
-            },
-            {
-                Tech: "Africa's Talking",                
-            },       
             
         ]
     },
@@ -243,7 +219,7 @@ export const ProjectArchive = [
     {
         Year: "2024",
         Project: "Business Admin",
-        MadeAt: "",
+        MadeAt: "-",
         MadeWith: [
             {
                 Tech: "Django REST"            
@@ -264,7 +240,7 @@ export const ProjectArchive = [
     {
         Year: "2024",
         Project: "SMS Nasi",
-        MadeAt: "",
+        MadeAt: "-",
         MadeWith: [
             {
                 Tech: "Node"            
@@ -285,7 +261,7 @@ export const ProjectArchive = [
     {
         Year: "2023",
         Project: "Hosy Sasa",
-        MadeAt: "",
+        MadeAt: "-",
         MadeWith: [
             {
                 Tech: "PHP"            
@@ -304,7 +280,7 @@ export const ProjectArchive = [
     {
         Year: "2023",
         Project: "Public Transport Ticketing System",
-        MadeAt: "",
+        MadeAt: "CUEA",
         MadeWith: [
             {
                 Tech: "PHP"            
