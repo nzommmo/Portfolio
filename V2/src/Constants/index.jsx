@@ -82,7 +82,7 @@ export const PortfolioProjects = [
     {
         Image: Plantra,
         Title: "Plantra",
-        Link:'https://plantra.isonge.co.ke/',
+        Link:'https://plantra.zearom.com/',
         Description: "Plantra is a modern, lightweight event planning tool designed to help organizers track deliverables, manage checklists, and monitor event preparation progress—all within a clean, intuitive interface. It enables users to plan events with structure and clarity while providing real-time visibility into what’s completed and what still needs attention.",
         Technologies: [
             {
