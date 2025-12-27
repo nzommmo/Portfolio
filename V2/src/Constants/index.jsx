@@ -99,7 +99,7 @@ export const PortfolioProjects = [
     {
         Image: CMS,
         Title: "Headless CMS: WordPress + React",
-        Link:'https://github.com/nzommmo/Wordpress-Headless-CMS/',
+        Link:'https://chajio.zearom.com/',
         Description: "This project showcases a headless CMS setup where WordPress is used solely as a content management backend, while a React (Vite) frontend fetches and displays the content via the WordPress REST API, enabling a modern, fast, and decoupled landing page experience.",
         Technologies: [
             {
