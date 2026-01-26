@@ -29,7 +29,7 @@ export const Experiences = [
     },    
       {
         Period: "June 2025 - August 2025",
-        Title: "Products & Innovation Intern",
+        Title: "Products & Innovation Intern (Academic Attachment)",
         Company: "Interswitch East Africa",
         Link:'https://interswitchgroup.com/kenya/',
         Description: "As a Products and Innovation Intern at Interswitch East Africa, I gained hands-on experience in product and project management, from ideation to launch. My role involved participating in brainstorming sessions, conducting product research, and familiarizing myself with development tools and frameworks such as Agile, Kanban, and Jira. I collaborated with cross-functional teams to explore innovative solutions that addressed real user needs while building a solid foundation in the product lifecycle.",
